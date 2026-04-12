@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+echo DigitalInvitation >> .gitignore
+echo *.pem >> .gitignore
+echo *.key >> .gitignore
+echo .env >> .gitignore
+# 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
