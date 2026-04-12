@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import video from "../assets/video.mp4"
+// import video from "../assets/video.mp4"
 // import image4 from "../assets/image4.jpg";
 // import image5 from "../assets/image5.jpg";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
