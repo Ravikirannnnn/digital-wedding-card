@@ -4,7 +4,7 @@
   bottom: 25px;
   width: 55px;
   height: 55px;
-  background: radial-gradient(circle at top left, #894f19, #7b5b33, #e4791b);
+  background: radial-gradient(circle at top left, #801989, #a050a4, #df37d6);
   color: white;
   font-size: 26px;
   display: flex;
@@ -12,7 +12,7 @@
   justify-content: center;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 0 15px rgba(255, 180, 105, 0.6), 0 0 30px rgba(255, 235, 180, 0.4);
+  box-shadow: 0 0 15px rgba(255, 105, 225, 0.6), 0 0 30px rgba(255, 180, 243, 0.4);
   transition: all 0.3s ease-in-out;
   z-index: 999;
   animation: float 2.8s ease-in-out infinite, glowPulse 2s ease-in-out infinite;
@@ -20,7 +20,7 @@
 
 .quickball:hover {
   transform: scale(1.2);
-  box-shadow: 0 0 25px rgba(255, 218, 154, 0.9), 0 0 45px rgba(255, 190, 105, 0.8);
+  box-shadow: 0 0 25px rgba(255, 154, 250, 0.9), 0 0 45px rgba(255, 190, 105, 0.8);
 }
 
 .quickball:active {
@@ -35,12 +35,12 @@
 
 @keyframes glowPulse {
   0% {
-    box-shadow: 0 0 10px #ffd79a, 0 0 20px #fae8c4;
+    box-shadow: 0 0 10px #ff9ae9, 0 0 20px #f9c4fa;
   }
   50% {
-    box-shadow: 0 0 20px #fbe6c2, 0 0 40px #ffd39a;
+    box-shadow: 0 0 20px #f0c2fb, 0 0 40px #ff9afa;
   }
   100% {
-    box-shadow: 0 0 10px #ffd09a, 0 0 20px #fae9c4;
+    box-shadow: 0 0 10px #ff9aff, 0 0 20px #fac4f3;
   }
 }

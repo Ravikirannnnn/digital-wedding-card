@@ -5,32 +5,32 @@
   flex-direction: column;
   text-align: center;
   padding: 40px 20px;
-  background: #fff8e1;
+  /* background: #fff8e1; */
   border-radius: 10px;
 }
 .countdown h2{
-  color: #b8860b;
+  /* color: #b8860b; */
   font-family: "Comfortaa";
   font-size: 40px;
 }
 .countdown h3{
   font-family: "Allura-Regular";
   font-size: 36px;
-  color: #4D4D4D; 
+  color: #fbb8ff; 
   margin-bottom: 0 !important;
 }
 .countdown p{
   font-family: "Comfortaa";
   font-size: 12px;
   line-height: 20px;
-  color: gray;
+  color: rgb(255, 234, 254);
   margin:30px !important;
   margin-bottom: 60px !important;
 }
 .countdown h1{
   font-family: "Comfortaa";
   font-size: 30px;
-  color: #808080;
+  /* color: #808080; */
   font-weight: 400;
   margin-bottom: 60px;
 }
@@ -48,6 +48,7 @@
 
   .tile__img {
 	max-width: 65%;
+  margin-top: 3%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,10 +65,10 @@
   font-size: 40px;
   font-weight:400;
   background: white;
-  color: #b8860b;
+  color: #b50bb8;
   padding: 20px 20px;
   border-radius: 5px;
-  box-shadow: 0 0 15px rgba(183, 123, 11, 0.485);
+  box-shadow: 0 0 15px rgba(166, 11, 183, 0.485);
 }
 .timer h5{
   margin-top: 10px !important;

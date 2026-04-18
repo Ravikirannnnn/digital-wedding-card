@@ -59,3 +59,36 @@
 /* .mute-button:hover {
   background: #f5f5f5;
 } */
+/* FULL WEBSITE BACKGROUND */
+
+.silk-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* Canvas fill */
+
+.silk-background canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+/* Content layer */
+
+.app-wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
+.app-content {
+  position: relative;
+  z-index: 1;
+}
