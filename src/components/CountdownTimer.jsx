@@ -53,6 +53,7 @@ const CountdownTimer = () => {
         <h5>S</h5>
         </span>
       </div>
+      {/*  */}
  <div class="tile__img">
          <img class="tile__img" src={couple} alt=""  />
        </div>
