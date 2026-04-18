@@ -15,7 +15,7 @@ function WeddingInvitationDownloadSection({
         <h2 className="invitation-title">
           Download Our Wedding Invitation
         </h2>
-
+{/*  */}
         <div className="couple-names">
           {coupleNames}
           <span className="heart">❤</span>
