@@ -141,7 +141,7 @@ function App() {
     <CountdownTimer />
     <EventDetails />
               <WeddingInvitationDownloadSection
-  pdfUrl="/inviatation.jpeg"
+  pdfUrl="/Vinay-weds-Rakshitha.pdf"
   coupleNames="Vinay & Rakshitha"
   weddingDate="07 May 2026"
 />

@@ -4,7 +4,7 @@ import "./InvitationDownloadSection.css";
 import border from "../assets/pngfree-divider.png";
 
 function WeddingInvitationDownloadSection({
-  pdfUrl = "/wedding-invitation.pdf",
+  pdfUrl = "/Vinay-weds-Rakshitha.pdf",
   coupleNames = "Vinay & Rakshitha",
   weddingDate = "07 May 2026",
 }) {
@@ -15,7 +15,7 @@ function WeddingInvitationDownloadSection({
         <h2 className="invitation-title">
           Download Our Wedding Invitation
         </h2>
-
+{/*  */}
         <div className="couple-names">
           {coupleNames}
           <span className="heart">❤</span>
