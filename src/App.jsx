@@ -14,6 +14,8 @@ import GiftWrapper from "./components/GiftWrapper";
 import audio from "../src/assets/audio.mp3";
 import "./App.css";
 import ImageSlide from "./components/ImageSlide";
+import Silk from "./components/ReactBits/Silk";
+import WeddingInvitationDownloadSection from "./components/InvitationDownloadSection";
 
 function App() {
   const audioRef = useRef(null);
@@ -118,18 +120,39 @@ function App() {
       )}
 
       {!showModal && isUnwrapped && (
-        <>
-          <Header showConfetti={showConfetti} />
-          <CoupleSection />
-          <Quickball />
-          <CountdownTimer />
-          <EventDetails />
-          <Gallery />
-          <MapSection />
-          <ImageSlide/>
-          <Footer2 />
-          <Footer />
-        </>
+<div className="app-wrapper">
+
+  {/* GLOBAL BACKGROUND */}
+  <div className="silk-background">
+    <Silk
+      speed={5}
+      scale={1}
+      color="#d168f5"
+      noiseIntensity={1}
+      rotation={0}
+    />
+  </div>
+
+  {/* CONTENT */}
+  <div className="app-content">
+    <Header showConfetti={showConfetti} />
+    <CoupleSection />
+    <Quickball />
+    <CountdownTimer />
+    <EventDetails />
+              <WeddingInvitationDownloadSection
+  pdfUrl="/inviatation.jpeg"
+  coupleNames="Vinay & Rakshitha"
+  weddingDate="07 May 2026"
+/>
+    <Gallery />
+    <MapSection />
+    <ImageSlide />
+    <Footer2 />
+    <Footer />
+  </div>
+
+</div>
       )}
     </div>
   );

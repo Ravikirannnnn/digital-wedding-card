@@ -36,9 +36,7 @@ const CountdownTimer = () => {
       <h2>{t("count_til")}</h2>
       <h3 className="cssanimation lePushReleaseFrom">{t("count_sub")}</h3>
       <p dangerouslySetInnerHTML={{ __html: t("count_para") }} />
-                  <div class="tile__img">
-         <img class="tile__img" src={couple} alt=""  />
-       </div>
+                 
       <h1>{t("date")}</h1>
       
       <div className="timer">
@@ -55,7 +53,9 @@ const CountdownTimer = () => {
         <h5>S</h5>
         </span>
       </div>
-
+ <div class="tile__img">
+         <img class="tile__img" src={couple} alt=""  />
+       </div>
     </div>
   );
 };

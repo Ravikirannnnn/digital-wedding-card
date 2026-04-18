@@ -3,7 +3,7 @@
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 0, 230, 0.4);
   backdrop-filter: blur(6px);
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .modal-box {
-  background: rgb(255, 234, 205);
+  background: rgb(255, 205, 253);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 20px;
@@ -26,9 +26,19 @@
   animation: popUp 0.5s ease-in-out;
 }
 
+.modal-box h1 {
+  font-size: 2rem;
+  text-decoration:wavy;
+  margin-bottom: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family: "Comfortaa";
+  font-weight: 600;
+  color: #880083;
+}
+
 .modal-box h2 {
   font-size: 1.6rem;
-  color: #fff;
   margin-bottom: 1.8rem;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -48,13 +58,13 @@
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  background: linear-gradient(135deg, #fbad6e, #e3cc77);
+  background: linear-gradient(135deg, #fb6eef, #e377e1);
   transition: all 0.3s ease;
   font-weight: 500;
 }
 
 .modal-box button:hover {
-    background: linear-gradient(135deg, #f79c51, #c8e377);
+    background: linear-gradient(135deg, #db51f7, #e377ca);
   transform: translateY(-2px) scale(1.02);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
