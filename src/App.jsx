@@ -16,10 +16,53 @@ import "./App.css";
 import ImageSlide from "./components/ImageSlide";
 import Silk from "./components/ReactBits/Silk";
 import WeddingInvitationDownloadSection from "./components/InvitationDownloadSection";
+import WeddingGallery from "./components/WeddingGallery";
+import AutoSlidingMobileGallery from "./components/AutoSlider";
+import img4 from '/V1.jpeg'; // Replace with your background image
+import img5 from '/V6.jpeg'; // Replace with your background image
+import img1 from '/V8.jpeg'; // Replace with your background image
+import img2 from '/V4.jpeg'; // Replace with your background image
+import img3 from '/V2.jpeg'; // Replace with your background image
+import img6 from '/V3.jpeg'; // Replace with your background image
+
 
 function App() {
   const audioRef = useRef(null);
   const [isMuted, setIsMuted] = useState(false);
+
+  
+const images = [
+  {
+    id: 1,
+    src: img1,
+    title: "Forever Together",
+  },
+  {
+    id: 2,
+    src: img2,
+    title: "True Love Story",
+  },
+  {
+    id: 3,
+    src: img3,
+    title: "Made For Each",
+  },
+  {
+    id: 4,
+    src: img4,
+    title: "Together Always",
+  },
+  {
+    id: 5,
+    src: img5,
+    title: "Endless Love",
+  },
+  {
+    id: 6,
+    src: img6,
+    title: "Perfect Match",
+  },
+];
 
   const fadeInMusic = (targetVolume = 0.3, duration = 3000) => {
     const steps = 30;
@@ -137,6 +180,10 @@ function App() {
   <div className="app-content">
     <Header showConfetti={showConfetti} />
     <CoupleSection />
+     <AutoSlidingMobileGallery
+      images={images}
+      autoSlideInterval={3000}
+    />
     <Quickball />
     <CountdownTimer />
     <EventDetails />
@@ -146,8 +193,9 @@ function App() {
   weddingDate="07 May 2026"
 />
     <Gallery />
+          <WeddingGallery/>
     <MapSection />
-    <ImageSlide />
+    {/* <ImageSlide /> */}
     <Footer2 />
     <Footer />
   </div>
