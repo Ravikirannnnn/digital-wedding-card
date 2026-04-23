@@ -3,7 +3,7 @@
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(255, 0, 230, 0.4);
+  background:  linear-gradient(90deg,rgba(155, 42, 149, 1) 0%, rgba(164, 87, 199, 1) 50%, rgba(237, 83, 206, 1) 100%);
   backdrop-filter: blur(6px);
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  background: linear-gradient(135deg, #fb6eef, #e377e1);
+  background:linear-gradient(90deg,rgb(251, 110, 244) 0%, rgb(205, 121, 244) 50%, rgb(255, 152, 234) 100%);;
   transition: all 0.3s ease;
   font-weight: 500;
 }

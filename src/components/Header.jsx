@@ -43,7 +43,7 @@ const Header = ({showConfetti}) => {
     <>
     {bgImage || bgImageMob?
     <header className="hero-section"
-    style={{backgroundImage:isMobile ? `url(${bgImageMob})`:`url(${bgImage})`}}
+    style={{backgroundImage:isMobile ? `url(${bgImageMob})`:``}}
     >
       <div className="overlay">
       {showConfetti && (

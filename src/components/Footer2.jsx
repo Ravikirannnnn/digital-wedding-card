@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 import React from 'react';
 import './Footer2.css'; // Custom CSS file
-import bgImage from '../assets/couple1.jpg'; // Replace with your background image
+import bgImage from '/V5.jpeg'; // Replace with your background image
 import border from "../assets/pngfree-divider.png"
 import { useTranslation } from "react-i18next";
 
@@ -20,13 +20,13 @@ const Footer2 = () => {
 
       <div className="footer-content">
         <div className="names-box">
-          <span className="name left">{t("male")}</span>
+          <span className="name left">{t("female")}</span>
           <div className="chain">
             <span className="bracket left-bracket">⎯</span>
             <span className="knot">⚭</span>
             <span className="bracket right-bracket">⎯</span>
           </div>
-          <span className="name right">{t("female")}</span>
+          <span className="name right">{t("male")}</span>
         </div>
 
              

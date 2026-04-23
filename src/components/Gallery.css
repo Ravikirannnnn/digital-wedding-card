@@ -1,8 +1,6 @@
-.gallery-container {
+/* .gallery-container {
   width: 70%;
-  /* max-width: 900px; */
   margin: auto;
-  /* padding: 20px; */
    background: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -35,4 +33,4 @@
   .tit-gal{
     font-size: 26px;
 }
-}
+} */
