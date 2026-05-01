@@ -189,7 +189,7 @@ const images = [
     <EventDetails />
               <WeddingInvitationDownloadSection
   pdfUrl="/Vinay-weds-Rakshitha.pdf"
-  coupleNames="Vinay & Rakshitha"
+  coupleNames="Vinay & Lavanya"
   weddingDate="07 May 2026"
 />
     <Gallery />
